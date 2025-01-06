@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug: an infinite loop caused by an incorrect dependency array in the `useEffect` hook. The `bug.js` file contains the buggy code, while `bugSolution.js` provides a corrected version. The issue arises when the effect's dependencies are missing, leading to the effect being executed repeatedly.
